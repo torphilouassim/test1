@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NyxOu</title>
+	<style>
+		body {
+			background-color: #222;
+			color: #fff;
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+			padding: 10px;
+			background-color: #111;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+		}
+
+		.logo {
+			width: 100px;
+			height: 100px;
+			margin-bottom: 20px;
+		}
+
+		.social-icons {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 20px;
+		}
+
+		.social-icon {
+			width: 30px;
+			height: 30px;
+			margin: 0 10px;
+		}
+
+		.description {
+			margin-bottom: 20px;
+			text-align: center;
+		}
+
+		.whoami {
+			font-size: 24px;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+
+		.hello-text {
+			font-size: 18px;
+		}
+
+		@media only screen and (max-width: 600px) {
+			.logo {
+				width: 70px;
+				height: 70px;
+			}
+
+			.social-icon {
+				width: 20px;
+				height: 20px;
+				margin: 0 5px;
+			}
+
+			.whoami {
+				font-size: 20px;
+			}
+
+			.hello-text {
+				font-size: 16px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<img src="logo.png" alt="icon" class="logo">
+		<div>@NyxOu</div>
+		<div class="social-icons">
+			<a href="https://www.instagram.com/torphilouassim/"><img src="insta.png" alt="Instagram" class="social-icon"></a>
+			<a href="https://twitter.com/torphilo"><img src="twitt.png" alt="Twitter" class="social-icon"></a>
+		</div>
+		<div class="description">
+			<div class="whoami">WHOAMI</div>
+			<div class="hello-text">Hello fellow hackers, I'm an upcoming developer.</div>
+		</div>
+	</div>
+</body>
+</html>
